@@ -55,3 +55,55 @@
         @include btn;
     }
 }
+
+@media (max-width: 991.98px) {
+    .menu {
+        &__item {
+            padding: 25px 15px 24px 0px;
+        }
+    }
+}
+
+@media (max-width: 767.98px) {
+    .header {
+        .button {
+            display: none;
+        }
+
+        &__container {
+            justify-content: space-around;
+        }
+    }
+
+    .menu {
+        &__item {
+            padding: 15px 15px 15px 0px;
+        }
+
+        &__link {
+            font-size: 16px;
+        }
+    }
+}
+
+@media (max-width: 479.98px) {
+    .menu {
+        &__item {
+            padding: 10px 10px 10px 0px;
+        }
+
+        &__link {
+            font-size: 14px;
+        }
+    }
+}
+
+
+/* PC */
+@media (max-width: 991.98px) {}
+
+/* TABLET */
+@media (max-width: 767.98px) {}
+
+/* MOBILE */
+@media (max-width: 479.98px) {}
