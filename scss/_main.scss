@@ -76,7 +76,8 @@
         &__container {
             background: linear-gradient(106.17deg, rgba(40, 40, 40, 0.56) -25.28%, rgba(38, 38, 38, 0.24) 123.88%), url('../img/hero/main_1.png');
             background-repeat: no-repeat;
-            background-size: c;
+            background-size: cover;
+            border-radius: 20px;
             margin: 0 auto;
         }
 
