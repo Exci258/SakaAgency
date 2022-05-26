@@ -168,9 +168,6 @@ body {
   }
 }
 
-/* PC */
-/* TABLET */
-/* MOBILE */
 /* --------------------Hero Section-------------------- */
 .hero__container {
   margin: 50px auto;
@@ -232,7 +229,7 @@ body {
     margin: 0 auto;
   }
   .hero__content {
-    margin-top: 45px;
+    margin-top: 15px;
   }
   .hero__image {
     height: 500px;
@@ -255,6 +252,9 @@ body {
 /* TABLET */
 @media (max-width: 767.98px) {
   .hero__container {
+    background: linear-gradient(106.17deg, rgba(40, 40, 40, 0.56) -25.28%, rgba(38, 38, 38, 0.24) 123.88%), url("../img/hero/main_1.png");
+    background-repeat: no-repeat;
+    background-size: c;
     margin: 0 auto;
   }
   .hero__title {
@@ -271,9 +271,9 @@ body {
     margin-bottom: 0;
   }
   .hero__image {
-    justify-content: center;
     background-image: none;
-    height: 300px;
+    justify-content: center;
+    height: 400px;
   }
 }
 
@@ -338,7 +338,6 @@ body {
 /* PC */
 @media (max-width: 991.98px) {
   .about-us__title {
-    /* @include fonts(800, 30px, 50px); */
     padding: 0px 0px 20px 0px;
   }
 }
@@ -350,7 +349,7 @@ body {
     font-weight: 800;
     font-size: 40px;
     line-height: 50px;
-    padding: 90px 0px 20px 0px;
+    padding: 0px 0px 20px 0px;
     text-align: center;
   }
   .about-us__items {
@@ -366,7 +365,7 @@ body {
     font-weight: 800;
     font-size: 30px;
     line-height: 50px;
-    padding: 70px 0px 20px 0px;
+    padding: 0px 0px 20px 0px;
   }
   .item_title {
     font-family: 'Poppins', sans-serif;
@@ -1093,14 +1092,6 @@ body {
 @media (max-width: 767.98px) {
   .footer__container {
     flex-direction: column;
-  }
-  .footer__company {
-    text-align: center;
-  }
-  .footer__support {
-    text-align: center;
-  }
-  .footer__input {
     text-align: center;
   }
   .company__title {

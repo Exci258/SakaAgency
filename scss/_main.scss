@@ -52,7 +52,7 @@
         }
 
         &__content {
-            margin-top: 45px;
+            margin-top: 15px;
         }
 
         &__image {
@@ -74,6 +74,9 @@
 @media (max-width: 767.98px) {
     .hero {
         &__container {
+            background: linear-gradient(106.17deg, rgba(40, 40, 40, 0.56) -25.28%, rgba(38, 38, 38, 0.24) 123.88%), url('../img/hero/main_1.png');
+            background-repeat: no-repeat;
+            background-size: c;
             margin: 0 auto;
         }
 
@@ -89,9 +92,9 @@
         }
 
         &__image {
-            justify-content: center;
             background-image: none;
-            height: 300px;
+            justify-content: center;
+            height: 400px;
         }
     }
 }
@@ -103,6 +106,8 @@
             @include fonts(800, 35px, 60px);
             margin-bottom: 0;
         }
+
+        &__image {}
 
         &__subtitle {
             @include fonts(400, 14px, 38px);
@@ -154,7 +159,6 @@
 @media (max-width: 991.98px) {
     .about-us {
         &__title {
-            /* @include fonts(800, 30px, 50px); */
             padding: 0px 0px 20px 0px;
         }
     }
@@ -165,7 +169,7 @@
     .about-us {
         &__title {
             @include fonts(800, 40px, 50px);
-            padding: 90px 0px 20px 0px;
+            padding: 0px 0px 20px 0px;
             text-align: center;
         }
 
@@ -181,7 +185,7 @@
     .about-us {
         &__title {
             @include fonts(800, 30px, 50px);
-            padding: 70px 0px 20px 0px;
+            padding: 0px 0px 20px 0px;
         }
     }
 
