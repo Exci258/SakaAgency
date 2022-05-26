@@ -1,0 +1,21 @@
+@mixin btn {
+    width: 157px;
+    height: 53px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background: #4080BF;
+    border-radius: 10px;
+    padding: 13px 28px 13px 27px;
+}
+
+@mixin fonts($fontW, $fontS, $lineH) {
+    font-family: 'Poppins', sans-serif;
+    font-weight: $fontW;
+    font-size: $fontS;
+    line-height: $lineH;
+}
