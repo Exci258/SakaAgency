@@ -1,11 +1,5 @@
-.main {
-    &__container {}
-}
-
 /* --------------------Hero Section-------------------- */
 .hero {
-
-
     &__container {
         margin: 50px auto;
     }
@@ -81,8 +75,6 @@
             margin: 0 auto;
         }
 
-        &__content {}
-
         &__title {
             @include fonts(800, 40px, 60px);
         }
@@ -108,8 +100,6 @@
             margin-bottom: 0;
         }
 
-        &__image {}
-
         &__subtitle {
             @include fonts(400, 14px, 38px);
             margin-bottom: 10px;
@@ -122,7 +112,7 @@
 
     &__title {
         @include fonts(800, 50px, 70px);
-        padding: 100px 0px 40px 0px;
+        padding: 100px 0 40px;
     }
 
     &__items {
@@ -143,8 +133,6 @@
         padding-right: 30px;
     }
 
-    &__text {}
-
     &_title {
         @include fonts(600, 28px, 42px);
         text-transform: capitalize;
@@ -160,7 +148,7 @@
 @media (max-width: 991.98px) {
     .about-us {
         &__title {
-            padding: 0px 0px 20px 0px;
+            padding: 0 0 20px;
         }
     }
 }
@@ -170,7 +158,6 @@
     .about-us {
         &__title {
             @include fonts(800, 40px, 50px);
-            padding: 0px 0px 20px 0px;
             text-align: center;
         }
 
@@ -186,7 +173,7 @@
     .about-us {
         &__title {
             @include fonts(800, 30px, 50px);
-            padding: 0px 0px 20px 0px;
+            padding: 0 0 20px;
         }
     }
 
@@ -206,7 +193,7 @@
 .services {
 
     &__title {
-        padding: 100px 0px 50px 0px;
+        padding: 100px 0 50px;
         @include fonts(800, 50px, 83px);
         text-align: center;
         text-transform: capitalize;
@@ -223,7 +210,7 @@
         background: #1E2028;
         border-radius: 10px;
         height: 100%;
-        padding: 20px 20px 40px 20px;
+        padding: 20px 20px 40px;
     }
 }
 
@@ -265,7 +252,7 @@
 }
 
 /* PC */
-@media (max-width: 991.98px) {}
+/* @media (max-width: 991.98px) {} */
 
 /* TABLET */
 @media (max-width: 767.98px) {
@@ -304,7 +291,7 @@
         display: flex;
         justify-content: space-between;
         align-items: flex-end;
-        padding: 100px 0px 50px 0px;
+        padding: 100px 0 50px;
     }
 
     &__title-text {
@@ -341,7 +328,7 @@
 }
 
 /* PC */
-@media (max-width: 991.98px) {}
+/* @media (max-width: 991.98px) {} */
 
 /* TABLET */
 @media (max-width: 767.98px) {
@@ -378,7 +365,7 @@
 
     &__title {
         @include fonts(800, 50px, 75px);
-        padding: 100px 0px 50px 0px;
+        padding: 100px 0 50px;
         text-align: center;
     }
 
@@ -399,7 +386,7 @@
             align-items: flex-end;
 
             img {
-                border-radius: 100px 0px 0px 0px;
+                border-radius: 100px 0 0;
             }
 
             .item-left__text {
@@ -412,7 +399,7 @@
             align-items: flex-end;
 
             img {
-                border-radius: 0px 0px 0px 100px;
+                border-radius: 0 0 0 100px;
             }
 
             .item-left__text {
@@ -432,7 +419,7 @@
             align-items: flex-end;
 
             img {
-                border-radius: 0px 100px 0px 0px;
+                border-radius: 0 100px 0 0;
             }
 
             .item-right__text {
@@ -445,7 +432,7 @@
             align-items: flex-end;
 
             img {
-                border-radius: 0px 0px 100px 0px;
+                border-radius: 0 0 100px;
             }
 
             .item-right__text {
@@ -489,7 +476,7 @@
 }
 
 /* PC */
-@media (max-width: 991.98px) {}
+/* @media (max-width: 991.98px) {} */
 
 /* TABLET */
 @media (max-width: 767.98px) {
@@ -503,7 +490,7 @@
             }
 
             .item-left__text {
-                padding: 0px 0px 10px 0px;
+                padding: 0 0 10px;
                 text-align: center;
             }
         }
@@ -517,7 +504,7 @@
             }
 
             .item-left__text {
-                padding: 0px 0px 10px 0px;
+                padding: 0 0 10px;
                 text-align: center;
             }
         }
@@ -535,7 +522,7 @@
             }
 
             .item-right__text {
-                padding: 0px 0px 10px 0px;
+                padding: 0 0 10px;
                 text-align: center;
             }
         }
@@ -549,7 +536,7 @@
             }
 
             .item-right__text {
-                padding: 0px 0px 10px 0px;
+                padding: 0 0 10px;
                 text-align: center;
             }
         }
@@ -577,17 +564,13 @@
 /* --------------------Testimonial Section-------------------- */
 .testimonial {
 
-    &__container {}
-
     &__block {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 50px;
         align-items: center;
-        margin: 150px 0px;
+        margin: 150px 0;
     }
-
-    &__text {}
 
     &__title {
         @include fonts(800, 50px, 83px);
@@ -596,8 +579,6 @@
     &__description {
         @include fonts(400, 18px, 35px);
     }
-
-    &__quotes {}
 }
 
 .quotes {
@@ -634,8 +615,6 @@
         margin-right: 20px;
     }
 
-    &__text {}
-
     &__title {
         @include fonts(600, 18px, 22px);
     }
@@ -664,7 +643,7 @@
     .testimonial {
 
         &__block {
-            margin: 0px 0px 50px 0px;
+            margin: 0 0 50px;
         }
 
         &__title {
@@ -686,11 +665,9 @@
     background-color: #1E2028;
     margin-bottom: 50px;
 
-    &__container {}
-
     &__title {
         @include fonts(800, 50px, 80px);
-        padding: 50px 0px 36px 0px;
+        padding: 50px 0 36px;
         text-align: center;
     }
 
@@ -698,20 +675,13 @@
         text-align: center;
         margin-bottom: 50px;
     }
-
-    &__achievements {}
-}
-
-.button {
-
-    &__link {}
 }
 
 .achievements {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
-    margin: 0px 166px;
+    margin: 0 166px;
     padding-bottom: 50px;
 
     &__clients {
@@ -774,11 +744,9 @@
     .call-to-action {
         &__title {
             @include fonts(800, 40px, 50px);
-            padding: 20px 0px 20px 0px;
+            padding: 20px 0;
         }
     }
-
-
 }
 
 /* MOBILE */
@@ -807,7 +775,7 @@
     .call-to-action {
         &__title {
             @include fonts(800, 30px, 50px);
-            padding: 20px 0px 20px 0px;
+            padding: 20px 0;
         }
     }
 }
