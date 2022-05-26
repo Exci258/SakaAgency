@@ -449,6 +449,81 @@ body {
   line-height: 26px;
 }
 
+/* --------------------Testimonial Section-------------------- */
+.testimonial__block {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  align-items: center;
+  margin: 150px 0px;
+}
+
+.testimonial__title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 83px;
+}
+
+.testimonial__description {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 35px;
+}
+
+.quotes {
+  background-color: #1E2028;
+  border-radius: 10px;
+  padding: 37px 44px 56px 26px;
+  display: flex;
+  flex-direction: column;
+}
+
+.quotes__image {
+  margin-bottom: 20px;
+}
+
+.quotes__image img {
+  float: right;
+}
+
+.quotes__description {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 31px;
+  margin-bottom: 50px;
+}
+
+.quotes__slider {
+  padding: 0px 216px 0px 234px;
+}
+
+.profile {
+  display: flex;
+  margin-bottom: 17px;
+  align-items: center;
+}
+
+.profile__image {
+  margin-right: 20px;
+}
+
+.profile__title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.profile__subtitle {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+}
+
 /* --------------------CTA Section-------------------- */
 .call-to-action {
   background-color: #1E2028;
@@ -460,7 +535,7 @@ body {
   font-weight: 800;
   font-size: 50px;
   line-height: 80px;
-  padding: 100px 0px 36px 0px;
+  padding: 50px 0px 36px 0px;
   text-align: center;
 }
 

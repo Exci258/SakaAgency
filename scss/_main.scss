@@ -304,6 +304,77 @@
     }
 }
 
+/* --------------------Testimonial Section-------------------- */
+.testimonial {
+
+    &__container {}
+
+    &__block {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+        align-items: center;
+        margin: 150px 0px;
+    }
+
+    &__text {}
+
+    &__title {
+        @include fonts(800, 50px, 83px);
+    }
+
+    &__description {
+        @include fonts(400, 18px, 35px);
+    }
+
+    &__quotes {}
+}
+
+.quotes {
+    background-color: #1E2028;
+    border-radius: 10px;
+    padding: 37px 44px 56px 26px;
+    display: flex;
+    flex-direction: column;
+
+    &__image {
+        margin-bottom: 20px;
+
+        img {
+            float: right;
+        }
+    }
+
+    &__description {
+        @include fonts(300, 16px, 31px);
+        margin-bottom: 50px;
+    }
+
+    &__slider {
+        padding: 0px 216px 0px 234px;
+    }
+}
+
+.profile {
+    display: flex;
+    margin-bottom: 17px;
+    align-items: center;
+
+    &__image {
+        margin-right: 20px;
+    }
+
+    &__text {}
+
+    &__title {
+        @include fonts(600, 18px, 22px);
+    }
+
+    &__subtitle {
+        @include fonts(300, 14px, 21px);
+    }
+}
+
 /* --------------------CTA Section-------------------- */
 .call-to-action {
     background-color: #1E2028;
@@ -313,7 +384,7 @@
 
     &__title {
         @include fonts(800, 50px, 80px);
-        padding: 100px 0px 36px 0px;
+        padding: 50px 0px 36px 0px;
         text-align: center;
     }
 
