@@ -1,3 +1,4 @@
+/* --------------------Min Reset-------------------- */
 *,
 *::after,
 *::before {
@@ -37,6 +38,7 @@ body {
   line-height: 1;
 }
 
+/* --------------------Fonts-------------------- */
 .wrapper {
   overflow: hidden;
   display: flex;
