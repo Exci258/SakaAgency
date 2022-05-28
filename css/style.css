@@ -135,7 +135,7 @@ body {
   color: #FFFFFF;
   background: #4080BF;
   border-radius: 10px;
-  padding: 13px 28px 13px 27px;
+  padding: 13px 28px;
 }
 
 @media (max-width: 992px) {
@@ -220,7 +220,7 @@ body {
   color: #FFFFFF;
   background: #4080BF;
   border-radius: 10px;
-  padding: 13px 28px 13px 27px;
+  padding: 13px 28px;
 }
 
 /* PC */
@@ -791,7 +791,6 @@ body {
   }
 }
 
-/* MOBILE */
 /* --------------------CTA Section-------------------- */
 .call-to-action {
   background-color: #1E2028;
@@ -943,7 +942,7 @@ body {
   font-weight: 800;
   font-size: 24px;
   line-height: 36px;
-  padding: 50px 0px 10px 0px;
+  padding: 50px 0 10px;
 }
 
 .footer__description {
@@ -994,7 +993,7 @@ body {
   font-weight: 500;
   font-size: 18px;
   line-height: 27px;
-  padding: 50px 0px 20px 0px;
+  padding: 50px 0 20px;
 }
 
 .company__item {
@@ -1018,7 +1017,7 @@ body {
   font-weight: 500;
   font-size: 18px;
   line-height: 27px;
-  padding: 50px 0px 20px 0px;
+  padding: 50px 0 20px;
 }
 
 .support__item {
@@ -1042,11 +1041,9 @@ body {
   font-weight: 500;
   font-size: 18px;
   line-height: 27px;
-  padding: 50px 0px 18px 0px;
+  padding: 50px 0 18px;
 }
 
-/* PC */
-/* @media (max-width: 991.98px) {} */
 /* TABLET */
 @media (max-width: 767.98px) {
   .footer__container {
@@ -1066,6 +1063,3 @@ body {
     padding: 20px 0;
   }
 }
-
-/* MOBILE */
-/* @media (max-width: 479.98px) {} */
